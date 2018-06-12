@@ -23,7 +23,33 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+**As a Library**
+
+```rb
+require 'robtex'
+
+api = Robtex::API.new
+puts api.ip("199.19.54.1")
+# => {"status"=>"ok", ...}
+puts api.as("1234")
+# => {"status"=>"ok", ...}
+puts api.rpdns("a.iana-servers.net")
+# => [{"rrname"=>"icannalac.com", "rrdata"=>"a.iana-servers.net", "rrtype"=>"NS", "time_first"=>1440957502, "time_last"=>1526778684, "count"=>2}, ...]
+puts api.fpdns("a.iana-servers.net")
+# => [{"rrname"=>"a.iana-servers.net", "rrdata"=>"2001:500:8c::53", "rrtype"=>"AAAA", "time_first"=>1441242410, "time_last"=>1460542918, "count"=>18}, ...]
+```
+
+**As a CLI**
+
+```sh
+$ robtex
+Commands:
+  robtex as [QUERY]      # Query for AS by [QUERY]
+  robtex fpdns [QUERY]   # Query for forward PDNS by [QUERY]
+  robtex help [COMMAND]  # Describe available commands or one specific command
+  robtex ip [QUERY]      # Query for IP by [QUERY]
+  robtex rpdns [QUERY]   # Query for reverse PDNS by [QUERY]
+```
 
 ## License
 
