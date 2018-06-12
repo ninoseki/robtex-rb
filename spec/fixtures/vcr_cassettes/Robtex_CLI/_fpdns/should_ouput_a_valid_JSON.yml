@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://freeapi.robtex.com/pdns/forward/a.iana-servers.net
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - freeapi.robtex.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 12 Jun 2018 08:03:54 GMT
+      Content-Type:
+      - application/x-ndjson
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d4250f67b5579a6313928462833cb2d761528790634; expires=Wed, 12-Jun-19
+        08:03:54 GMT; path=/; domain=.robtex.com; HttpOnly
+      Cache-Control:
+      - max-age=60, public
+      Content-Language:
+      - en-US
+      Last-Modified:
+      - Tue, 12 Jun 2018 08:03:44 GMT
+      Expires:
+      - Tue, 12 Jun 2018 08:04:44 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Rt-Time:
+      - 0.006297458 0.006123006
+      Cf-Cache-Status:
+      - EXPIRED
+      Vary:
+      - Accept-Encoding
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 429acdb9fb8a94b7-NRT
+    body:
+      encoding: UTF-8
+      string: "{\"rrname\":\"a.iana-servers.net\",\"rrdata\":\"2001:500:8c::53\",\"rrtype\":\"AAAA\",\"time_first\":1441242410,\"time_last\":1460542918,\"count\":18}\r\n{\"rrname\":\"a.iana-servers.net\",\"rrdata\":\"2001:500:8f::53\",\"rrtype\":\"AAAA\",\"time_first\":1460751956,\"time_last\":1528461120,\"count\":18}\r\n{\"rrname\":\"a.iana-servers.net\",\"rrdata\":\"199.43.132.53\",\"rrtype\":\"A\",\"time_first\":1441242410,\"time_last\":1460542918,\"count\":18}\r\n{\"rrname\":\"a.iana-servers.net\",\"rrdata\":\"199.43.135.53\",\"rrtype\":\"A\",\"time_first\":1460751956,\"time_last\":1528461120,\"count\":18}\r\n"
+    http_version: 
+  recorded_at: Tue, 12 Jun 2018 08:03:55 GMT
+recorded_with: VCR 4.0.0

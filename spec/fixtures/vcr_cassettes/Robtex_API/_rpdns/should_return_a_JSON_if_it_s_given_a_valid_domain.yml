@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://freeapi.robtex.com/pdns/reverse/a.iana-servers.net
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - freeapi.robtex.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 12 Jun 2018 07:40:25 GMT
+      Content-Type:
+      - application/x-ndjson
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d1440a3482ed3d129cd02956b95dc69ac1528789224; expires=Wed, 12-Jun-19
+        07:40:24 GMT; path=/; domain=.robtex.com; HttpOnly
+      Cache-Control:
+      - max-age=60, public
+      Content-Language:
+      - en-US
+      Last-Modified:
+      - Tue, 12 Jun 2018 07:40:14 GMT
+      Expires:
+      - Tue, 12 Jun 2018 07:41:14 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Rt-Time:
+      - 0.031073857 0.030905719
+      Cf-Cache-Status:
+      - EXPIRED
+      Vary:
+      - Accept-Encoding
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 429aab4effc3a536-NRT
+    body:
+      encoding: UTF-8
+      string: "{\"rrname\":\"icannalac.com\",\"rrdata\":\"a.iana-servers.net\",\"rrtype\":\"NS\",\"time_first\":1440957502,\"time_last\":1526778684,\"count\":2}\r\n{\"rrname\":\"237.in-addr.arpa\",\"rrdata\":\"a.iana-servers.net\",\"rrtype\":\"NS\",\"time_first\":1441298790,\"time_last\":1505450260,\"count\":2}\r\n{\"rrname\":\"132.43.199.in-addr.arpa\",\"rrdata\":\"a.iana-servers.net\",\"rrtype\":\"NS\",\"time_first\":1439022822,\"time_last\":1505460564,\"count\":2}\r\n{\"rrname\":\"95.7.199.in-addr.arpa\",\"rrdata\":\"a.iana-servers.net\",\"rrtype\":\"NS\",\"time_first\":1435184854,\"time_last\":1500350674,\"count\":2}\r\n{\"rrname\":\"publictechnicalidentifiers.international\",\"rrdata\":\"a.iana-servers.net\",\"rrtype\":\"NS\",\"time_first\":1481408434,\"time_last\":1527748024,\"count\":2}\r\n{\"rrname\":\"icannpassport.com\",\"rrdata\":\"a.iana-servers.net\",\"rrtype\":\"NS\",\"time_first\":1440736048,\"time_last\":1506256974,\"count\":2}\r\n{\"rrname\":\"dns-cert.net\",\"rrdata\":\"a.iana-servers.net\",\"rrtype\":\"NS\",\"time_first\":1440742630,\"time_last\":1511750282,\"count\":2}\r\n{\"rrname\":\"publictechnicalidentifier.network\",\"rrdata\":\"a.iana-servers.net\",\"rrtype\":\"NS\",\"time_first\":1481408434,\"time_last\":1504871634,\"count\":2}\r\n{\"rrname\":\"icannalac.com\",\"rrdata\":\"a.iana-servers.net\",\"rrtype\":\"NS\",\"time_first\":1440957502,\"time_last\":1526778684,\"count\":2}\r\n{\"rrname\":\"237.in-addr.arpa\",\"rrdata\":\"a.iana-servers.net\",\"rrtype\":\"NS\",\"time_first\":1441298790,\"time_last\":1505450260,\"count\":2}\r\n{\"rrname\":\"132.43.199.in-addr.arpa\",\"rrdata\":\"a.iana-servers.net\",\"rrtype\":\"NS\",\"time_first\":1439022822,\"time_last\":1505460564,\"count\":2}\r\n{\"rrname\":\"mail60.variantfuture.com\",\"rrdata\":\"a.iana-servers.net\",\"rrtype\":\"NS\",\"time_first\":1447141690,\"time_last\":1486544636,\"count\":2}\r\n{\"rrname\":\"95.7.199.in-addr.arpa\",\"rrdata\":\"a.iana-servers.net\",\"rrtype\":\"NS\",\"time_first\":1435184854,\"time_last\":1500350674,\"count\":2}\r\n{\"rrname\":\"publictechnicalidentifiers.international\",\"rrdata\":\"a.iana-servers.net\",\"rrtype\":\"NS\",\"time_first\":1481408434,\"time_last\":1527748024,\"count\":2}\r\n{\"rrname\":\"icannpassport.com\",\"rrdata\":\"a.iana-servers.net\",\"rrtype\":\"NS\",\"time_first\":1440736048,\"time_last\":1506256974,\"count\":2}\r\n"
+    http_version: 
+  recorded_at: Tue, 12 Jun 2018 07:40:25 GMT
+recorded_with: VCR 4.0.0

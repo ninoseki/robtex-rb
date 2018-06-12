@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://freeapi.robtex.com/ipquery/199.19.54.1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - freeapi.robtex.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 12 Jun 2018 08:03:54 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dbc07d765409c07c0ff43c47f4c2380a71528790633; expires=Wed, 12-Jun-19
+        08:03:53 GMT; path=/; domain=.robtex.com; HttpOnly
+      Cache-Control:
+      - max-age=60, public
+      Content-Language:
+      - en-US
+      Last-Modified:
+      - Tue, 12 Jun 2018 08:03:43 GMT
+      Expires:
+      - Tue, 12 Jun 2018 08:04:43 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Rt-Time:
+      - 0.015665428 0.015507425
+      Cf-Cache-Status:
+      - EXPIRED
+      Vary:
+      - Accept-Encoding
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 429acdb51e559547-NRT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","act":[{"o":"b0.org.afilias-nst.org","t":1528720438}],"acth":[],"pas":[{"o":"b0.org.afilias-nst.org","t":1528720502},{"o":"b0.nic.ngo","t":1504542014},{"o":"b0.org.afilias-nst.info","t":1528720512},{"o":"b0.nic.ong","t":1510217380}],"pash":[],"city":"Toronto","country":"Canada","as":12041,"asname":"AFILIAS-NST
+        Afilias Limited","whoisdesc":"Afilias Canada, Corp. (ACC-308)","routedesc":"REACH
+        (Customer Route)","bgproute":"199.19.54.0/24"}'
+    http_version: 
+  recorded_at: Tue, 12 Jun 2018 08:03:54 GMT
+recorded_with: VCR 4.0.0
