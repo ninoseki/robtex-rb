@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/ninoseki/robtex-rb.svg?branch=master)](https://travis-ci.org/ninoseki/robtex-rb)
 [![Maintainability](https://api.codeclimate.com/v1/badges/b5bba652a09c7ef1aa57/maintainability)](https://codeclimate.com/github/ninoseki/robtex-rb/maintainability)
+[![Coverage Status](https://coveralls.io/repos/github/ninoseki/robtex-rb/badge.svg?branch=master)](https://coveralls.io/github/ninoseki/robtex-rb?branch=master)
 
 Ruby client for the Robtex API
 
