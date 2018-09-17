@@ -1,10 +1,11 @@
 require "bundler/setup"
-require "robtex"
-require "rspec"
-require "vcr"
 
 require 'coveralls'
 Coveralls.wear!
+
+require "robtex"
+require "rspec"
+require "vcr"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
